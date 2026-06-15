@@ -56,6 +56,17 @@ The objective is to train a model that predicts the correct species from these m
 
 The model achieved excellent accuracy on the test data, clearly distinguishing among all three Iris species.
 
+## 🖼️ Output Images
+
+### Pair Plot
+![Iris pair plot](output.png)
+
+### Feature Correlation Heatmap
+![Feature correlation heatmap](output1.png)
+
+### Confusion Matrix
+![Model confusion matrix](output3.png)
+
 
 ## 🧩 How to Run the Project
 
@@ -67,6 +78,7 @@ The model achieved excellent accuracy on the test data, clearly distinguishing a
    pip install pandas numpy matplotlib seaborn scikit-learn joblib
 
    jupyter notebook CodeAlpha_IrisClassification.ipynb
+   ```
 
 Dataset link
    https://www.kaggle.com/datasets/saurabh00007/iriscsv
@@ -74,3 +86,14 @@ Dataset link
 ---
 
 ## 📂 Project Structure
+
+```text
+CodeAlpha_IrisClassification_DataScience/
+├── CodeAlpha_IrisClassification.ipynb
+├── Iris.csv
+├── README.md
+├── iris_model.pkl
+├── output.png
+├── output1.png
+└── output3.png
+```
